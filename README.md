@@ -2,9 +2,6 @@
 SQLite binding for Red and Red/System
 
 ---
-SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+I removed all files from this repository, as it is redundant.
 
-Purpose of this project is to provide access to **SQLite API** from Red/System and Red language.
-
-[SQLite3.reds](SQLite3.reds) is full low level API for **Red/System** made by parsing of SQLite3 header file (v3.20.1) with manual review.
-[SQLite3.red](SQLite3.red) is minimal binding with dialect for **Red** level and could be used as a starting point for more complex work. 
+If you need this binding, use [official Red/Code repository](https://github.com/red/code/tree/master/Library/SQLite) or [my fork](https://github.com/red/code/tree/master/Library/SQLite), which may contain changes not yet merged in the main repository.
